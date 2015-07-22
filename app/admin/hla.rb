@@ -1,4 +1,4 @@
-ActiveAdmin.register MyHla do
+ActiveAdmin.register Hla do
   permit_params :title, :comment, :user_id
 
 # See permitted parameters documentation:

@@ -1,4 +1,9 @@
 class CreateMyHlas < ActiveRecord::Migration
+  
+  def change
+    rename_table :my_hlas, :hlas
+  end 
+
   def change
     create_table :my_hlas do |t|
       t.string :title
